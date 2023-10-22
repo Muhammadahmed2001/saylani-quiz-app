@@ -245,7 +245,7 @@ body{
 
 
 .quiz-div{
-  width: 60%;
+  width: 80%;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   
 }
@@ -264,4 +264,7 @@ body{
 .time{
   background-color: #fff !important;
   color: #ff1f1f !important;
+}
+span{
+  font-weight: 700;
 }
