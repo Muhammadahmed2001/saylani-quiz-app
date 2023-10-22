@@ -1,114 +1,267 @@
-.ani-div{
-width: 50%;
+body{
+  background-color: #ead4d4 !important;
 }
-.log-div{
-    width: 50%;
+.contanair {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+
+}
+.form-box {
+  max-width: 400px;
+  background: #79c4b0;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #500472;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.container {
-    text-align: center;
-    display: flex;
-    justify-content: center;
- 
-  
-  
-  }
-  
-  
-  
-  
-  
-  
-  
-  .form-box {
-    max-width: 400px;
-    background: #79c4b0;
-    overflow: hidden;
-    border-radius: 16px;
-    color: #010101;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  }
-  
-  .form {
-    color: #500472;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 32px 24px 24px;
-    gap: 16px;
-    text-align: center;
-  }
-  
-  /*Form text*/
-  .title {
-    font-weight: bold;
-    font-size: 1.6rem;
-  }
-  
-  .subtitle {
-    font-size: 1rem;
-    color: #500472;
-  }
-  
-  /*Inputs box*/
-  .form-container {
-    overflow: hidden;
-    border-radius: 8px;
-    background-color: #fff;
-    margin: 1rem 0 .5rem;
-    width: 100%;
-  }
-  
-  .input {
-    border-color: #500472;
-    border: 0;
-    outline: 2PX;
-    height: 40px;
-    width: 100%;
-    border-bottom: 1px solid #81d679;
-    font-size: .9rem;
-    padding: 8px 15px;
-  }
-  
-  .form-section {
-    padding: 16px;
-    font-size: .85rem;
-    background-color: #81d679;
-    box-shadow: rgb(0 0 0 / 8%) 0 -1px;
-  }
-  
-  .form-section a {
-    font-weight: bold;
-    color: #500472;
-    transition: color .3s ease;
-  }
-  
-  .form-section a:hover {
-    color: #500472;
-    text-decoration: underline;
-  }
-  
-  /*Button*/
-  .form button {
-    background-color: #500472;
-    color: #fff;
-    border: 0;
-    border-radius: 24px;
-    padding: 10px 16px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color .3s ease;
-  }
-  
-  .form button:hover {
-    background-color: #500472;
-  }
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
 
- 
-  .log-div{
-    margin-top: 140px;
-  }
-  .ani-div{
-   margin-top: 95px;
-  }
+/*Form text*/
+.title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #500472;
+}
+
+/*Inputs box*/
+.form-container {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 1rem 0 .5rem;
+  width: 100%;
+}
+
+.input {
+  border-color: #005ce6;
+  border: 0;
+  outline: 2PX;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #81d679;
+  font-size: .9rem;
+  padding: 8px 15px;
+}
+
+.form-section {
+  padding: 16px;
+  font-size: .85rem;
+  background-color: #79c4b0;
+  box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}
+
+.form-section a {
+  font-weight: bold;
+  color: #500472;
+  transition: color .3s ease;
+}
+
+.form-section a:hover {
+  color: #500472;
+  text-decoration: underline;
+}
+
+/*Button*/
+.form button {
+  background-color: #500472;
+  color: #fff;
+  border: 0;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.form button:hover {
+  background-color: #8238a4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#heading{
+ display: flex;
+ justify-content: center;
+ margin-top: 60px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.card1 {
+  width: 150px;
+  height: 150px;
+  outline: none;
+  border: none;
+  background: #81d679;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.instagram {
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+
+.card2 {
+  width: 150px;
+  height: 150px;
+  outline: none;
+  border: none;
+  background: #81d679;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.twitter {
+  margin-top: 1.5em;
+  margin-left: -.9em;
+  fill: #03A9F4;
+}
+
+.card3 {
+  width: 310px;
+  height: 150px;
+  outline: none;
+  border: none;
+  background: #81d679;
+  border-radius: 5px 5px 90px 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.github {
+  margin-top: -.6em;
+  margin-left: 1.2em;
+}
+
+.card4 {
+  width: 150px;
+  height: 150px;
+  outline: none;
+  border: none;
+  background: #81d679;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.discord {
+  margin-top: -.9em;
+  margin-left: -1.2em;
+  fill: #8c9eff;
+}
+
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+  fill: white;
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03A9F4;
+}
+
+.card2:hover .twitter {
+  fill: white;
+}
+
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #15d5a9;
+}
+
+.card3:hover .github {
+  fill: white;
+}
+
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+
+.card4:hover .discord {
+  fill: white;
+}
+
+
+
+
+
+
+
+.quiz-div{
+  width: 60%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  
+}
+.card-header{
+  background-color: #b0e9da !important;
+
+}
+.card-body{
+  text-align: start;
+}
+.btn{
+  margin-top: 10px;
+  background-color: #500472 !important;
+  color: #fff !important;
+}
+.time{
+  background-color: #fff !important;
+  color: #ff1f1f !important;
+}
